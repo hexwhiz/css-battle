@@ -14,11 +14,11 @@
     width: 420px;
     margin: 0 auto;
     font-family: 'Inter';
-    background-color: #fcfcfc;
+    background-color: #f2f2f2;
 }
 
 .card{
-    background: linear-gradient(#ff556b,#e9465b);
+    background: linear-gradient(#ff556b,#e64157);
     padding-bottom: 38px;
     border-bottom-left-radius: 17%;
     margin-bottom: 40px;
@@ -70,6 +70,7 @@
     display: flex;
     flex-direction: column;
     gap:20px;
+    padding-bottom: 40px;
 }
 
 .stat2-item{
@@ -81,7 +82,7 @@
     gap: 10px;
     align-items: center;
     color: #e9465b;
-    box-shadow: 0 0 20px rgb(228, 228, 228);
+    box-shadow: 0 0 25px rgb(226, 226, 226);
 }
 
 .stat2-value{
@@ -100,5 +101,4 @@
     color: #e9465b;
     border: #e9465b 4px solid;
     border-radius: 100%;
-    
 }
